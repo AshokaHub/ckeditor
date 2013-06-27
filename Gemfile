@@ -24,16 +24,6 @@ platforms :ruby do
   end
 
   group :active_record do
-    gem "paperclip", "~> 3.0.3"
     gem "carrierwave"
-    gem "dragonfly"
-    gem "mini_magick"
-  end
-
-  group :mongoid do
-    gem "mongoid"
-    gem "bson_ext"
-    gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
-    gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
   end
 end
